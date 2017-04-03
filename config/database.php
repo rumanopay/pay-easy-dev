@@ -42,7 +42,6 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'host' => env('DB_HOST', 'eu-cdbr-west-01.cleardb.com'),
-            'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'eroku_e06da09a93dd651'),
             'username' => env('DB_USERNAME', '5009aade1cbba'),
             'password' => env('DB_PASSWORD', 'aff4941f'),
